@@ -3,7 +3,6 @@ Software | Command
 7 Zip | ```7z2107-x64.msi /q INSTALLDIR="C:\Program Files\7-Zip"```
 Bounjour | ```BonjourPSSetup.exe /quiet /qn```
 Cryptomator | ```Cryptomator-1.6.10-x64.msi /quiet /qn```
-Choco | ```powershell.exe "Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iwr https://chocolatey.org/install.ps1 -UseBasicParsing | iex"```
 CrystalDiskInfo | ```CrystalDiskInfo8_16_4.exe /SILENT```
 CyberDuck | ```Cyberduck-Installer-8.3.3.37544.exe /install /quiet```
 Exif Tool | ```ExifTool_install_12.41_64.exe /VERYSILENT```
