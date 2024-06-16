@@ -11,6 +11,7 @@ Git | ```Git-2.36.0-64-bit.exe /SILENT /SUPPRESSMSGBOXES /NORESTART /NOCANCEL```
 Git LFS | ```git-lfs-windows-v3.1.4.exe /SILENT /SUPPRESSMSGBOXES /NORESTART /NOCANCEL```
 Google Chrome Enterprise | ```MsiExec.exe /i googlechromestandaloneenterprise64.msi /qn```
 GreenShot | ```Greenshot-INSTALLER-1.2.10.6-RELEASE.exe /VERYSILENT```
+Microsoft Exchange 2019 | ```Setup.exe /IAcceptExchangeServerLicenseTerms /IAcceptExchangeServerLicenseTerms_DiagnosticDataON /Mode:Install /Role:mb /PrepareAllDomains /NewProvisionedServer:mx01 /OrganizationName:"De Hart Network"```
 NodeJS | ```node-v16.14.2-x64.msi /qb```
 PowerShell 7.2 | ```msiexec.exe /package PowerShell-7.2.2-win-x64.msi /quiet ADD_EXPLORER_CONTEXT_MENU_OPENPOWERSHELL=1 ENABLE_PSREMOTING=1 REGISTER_MANIFEST=1 USE_MU=1 ENABLE_MU=1```
 PuTTY | ```MsiExec.exe /i putty-64bit-0.76-installer.msi /qn```
@@ -18,6 +19,9 @@ RemoteDesktopPlus | ```RemoteDesktopPlus.msi /quiet /qn```
 TreeSize | ```TreeSizeFreeSetup.exe /verysilent```
 VirtIO Guest Tools | ```virtio-win-guest-tools.exe /install /quiet```
 VMware Workstation Pro | ```VMware-workstation-full-16.2.3-19376536.exe /s /v /qn EULAS_AGREED=1 SERIALNUMBER=ZF71R-DMX85-08DQY-8YMNC-PPHV8```
+VMware Horizon Agent | ```setup.exe /s /v"/qn```
+Vmware Horizon Connection Server | ```VMware-viewconnectionserver-y.y.y-xxxxxx.exe /s /v"/qn VDM_SERVER_INSTANCE_TYPE=1 VDM_INITIAL_ADMIN_SID=S-1-5-32-544 VDM_SERVER_RECOVERY_PWD=mini VDM_SERVER_RECOVERY_PWD_REMINDER=""First car"""```
 VNC Viewer | ```VNC-Viewer-6.22.315-Windows-en-64bit.msi /quiet /qn```
 Windows Exporter for Promotheus | ```msiexec /i windows_exporter-0.18.1-amd64.msi ENABLED_COLLECTORS="cpu,cpu_info,cs,logical_disk,net,system,service,textfile" LISTEN_PORT=9182```
 WireGuard Client | ```wireguard-amd64-0.5.3.msi /quiet /qn```
+Veeam Agent | ```VeeamAgentWindows_6.0.2.1090.exe /silent /accepteula /acceptthirdpartylicenses```
